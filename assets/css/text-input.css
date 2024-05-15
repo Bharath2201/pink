@@ -1,0 +1,46 @@
+.text-input {
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #CED3D9;
+    width: 100%;
+    padding-bottom: 6px;
+    transition: border-color .5s;
+}
+
+.text-input:focus {
+    border-color: black;
+}
+
+
+/* To change the placeholder color */
+::placeholder {
+    /* Firefox */
+    color: var(--gray);
+    opacity: 1;
+}
+
+::-ms-input-placeholder {
+    /* Edge 12-18 */
+    color: var(--gray);
+}
+
+.text-area {
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #CED3D9;
+    width: 100%;
+    resize: none;
+    height: 80px;
+    padding-bottom: 6px;
+    transition: border-color .5s;
+}
+
+.text-area:focus {
+    border-color: black;
+}
+
+.bot-text-box {
+    outline: 0;
+    border: none;
+    width: 300px;
+}

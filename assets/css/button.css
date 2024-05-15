@@ -1,0 +1,56 @@
+.primary-button {
+    border-radius: 50px;
+    background-color: var(--pink);
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.secondary-button {
+    border-radius: 50px;
+    background-color: black;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    width: fit-content;
+    border: none;
+}
+
+.white-button {
+    border-radius: 50px;
+    background-color: white;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+    font-size: 11px;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.outline-button {
+    border-radius: 50px;
+    background-color: white;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+    font-size: 11px;
+    font-weight: 600;
+    width: fit-content;
+    border: 1px solid black;
+}
